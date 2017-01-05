@@ -1,0 +1,13 @@
+@import 'settings';
+@import 'foundation-emails';
+
+body,
+html, 
+.body,
+.container.header {
+    background: #f3f3f3 !important;
+}
+
+.body-drip {
+    border-top: 8px solid #2a2d65;
+}

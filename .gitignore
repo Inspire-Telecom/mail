@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+dist
+.sass-cache
+.awspublish*
+config.json
+.vscode/
+*.key
+src/assets/img/*
+!src/assets/img/logo_small.png
+!src/assets/img/head.png
+src/pages/*
+!src/pages/.gitkeep
