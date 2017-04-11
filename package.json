@@ -7,14 +7,12 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp --production",
-    "dist": "gulp dist --production",
-    "litmus": "gulp litmus --production"
+    "dist": "gulp dist --production"
   },
   "license": "MIT",
   "dependencies": {
     "foundation-emails": "^2.2.1",
-    "nodemailer": "^2.6.4",
-    "nodemailer-dkim": "^1.0.4",
+    "nodemailer": "^4.0.0",
     "nodemailer-html-to-text": "^2.1.0"
   },
   "devDependencies": {
@@ -25,20 +23,17 @@
     "browser-sync": "^2.17.5",
     "colors": "^1.1.2",
     "gulp": "git+https://github.com/gulpjs/gulp.git#4.0",
-    "gulp-awspublish": "^3.0.1",
     "gulp-cli": "^1.1.0",
     "gulp-html-src": "^1.0.0",
     "gulp-htmlmin": "^1.1.1",
     "gulp-if": "^2.0.0",
     "gulp-imagemin": "^2.4.0",
     "gulp-inline-css": "^3.0.0",
-    "gulp-litmus": "0.0.7",
     "gulp-load-plugins": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^2.1.0",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-zip": "^3.2.0",
     "inky": "^1.3.6",
     "lazypipe": "^1.0.1",
     "merge-stream": "^1.0.0",
