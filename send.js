@@ -19,7 +19,7 @@ const htmlToText = require('nodemailer-html-to-text').htmlToText;
     // setup e-mail data with unicode symbols
     var mailOptions = {
         from: '"Inspire" <contact@inspire-telecom.com>',
-        subject: 'Assistez à des lancements de start-up tout en apprenant !',
+        subject: 'Participez à la création d’un site web révolutionnaire !',
         html: { path: './docs/ext3/ext3.html' },
         to: ''
     };
