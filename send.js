@@ -20,17 +20,17 @@ const htmlToText = require('nodemailer-html-to-text').htmlToText;
     var mailOptions = {
         from: '"Inspire" <contact@inspire-telecom.com>',
         subject: 'Participez à la création d’un site web révolutionnaire !',
-        html: { path: './docs/ext3/ext3.html' },
+        html: { path: './docs/sf3g54j/index.html' },
         to: ''
     };
 
-    if (true) {
+    if (false) {
         mailOptions.subject = '[Test] ' + mailOptions.subject;
-        mailOptions.to = 'contact@telecom-st-etienne.fr, qualite@inspire-telecom.com';
+        mailOptions.to = 'r.charissou@inspire-telecom.com, o.le-floch@inspire-telecom.com, qualite@inspire-telecom.com';
     } else {
-        //mailOptions.to += 'fise1@telecom-st-etienne.fr, ';
-        //mailOptions.to += 'fise2@telecom-st-etienne.fr, ';
-        //mailOptions.to += 'fise3@telecom-st-etienne.fr, ';
+        mailOptions.to += 'fise1@telecom-st-etienne.fr, ';
+        mailOptions.to += 'fise2@telecom-st-etienne.fr, ';
+        mailOptions.to += 'fise3@telecom-st-etienne.fr, ';
         
         //mailOptions.to += 'fisa1@telecom-st-etienne.fr, ';
         //mailOptions.to += 'fisa2@telecom-st-etienne.fr, ';
